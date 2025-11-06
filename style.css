@@ -111,3 +111,16 @@ color: var(--primary-text-color) !important;
 border-color: var(--accent-color);
 color: var(--accent-color) !important;
 }
+/* header section */
+.section-gap{
+  padding: 50px var(--padding-inline-section) 0; 
+}
+.header-left{
+  width: 40vw;
+  flex-direction: column;
+  gap: 10px;
+  align-items: start;
+}
+.header-right img{
+ width: 100%;
+}
