@@ -136,3 +136,38 @@ color: var(--accent-color);
 .logos img{
   height: 46px;
 }
+/* feature section */
+.section-header{
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.features-area{
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+}
+.feature-card{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 30%;
+  margin-top: 20px;
+  align-items: center;
+}
+.feature-card img{
+  width: 55px;
+}
+.feature-card p{
+  text-align: center;
+}
+/* big feature */
+.big-feature-section{
+  width: 100px;
+}
+.feature-desc{
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 10px;
+}
