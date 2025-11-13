@@ -262,3 +262,7 @@ footer {
 .col-menu a{
   color: var(--primary-text-color);
 }
+.sub-footer{
+  gap: 20px;
+  justify-content: center;
+}
