@@ -189,6 +189,7 @@ ul {
 .example-area {
   justify-content: center;
   gap: 30px;
+  padding-block: 20px;
 }
 
 .example-card {
@@ -196,11 +197,47 @@ ul {
   width: 23%;
   background-color: black;
   color: white !important;
-  justify-content: end;
+  justify-content:end;
   padding: 25px;
   transition: 0.2s ease-out;
+  min-height: 300px;
+  align-content: end;
 }
 
 .example-card:hover {
   box-shadow: 0 0 10px #888;
+}
+
+.example-card:nth-child(1){
+  /* background-image: url('./assets/asset\ 36.jpeg'); */
+  background-size: cover;
+  background: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)),url("./assets/asset\ 36.jpeg");
+  
+}
+.example-card:nth-child(2){
+  /* background-image: url('./assets/asset\ 36.jpeg'); */
+  background-size: cover;
+  background: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)),url("./assets/asset\ 37.jpeg");
+  
+}
+.example-card:nth-child(3){
+  /* background-image: url('./assets/asset\ 36.jpeg'); */
+  background-size: cover;
+  background: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)),url("./assets/asset\ 38.jpeg");
+  
+}
+.example-card:nth-child(4){
+  /* background-image: url('./assets/asset\ 36.jpeg'); */
+  background-size: cover;
+  background: linear-gradient(rgb(0,0,0,0.1),rgb(0,0,0,0.8)),url("./assets/asset\ 39.jpeg");
+} 
+/* cta section */
+.cta-section{
+  background-color: var(--primary-text-color);
+  flex-direction: column;
+  gap: 40px;
+  padding-block: 100px;
+}
+.cta-section h2, p{
+  color: white !important;
 }
