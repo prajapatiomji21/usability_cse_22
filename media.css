@@ -4,7 +4,7 @@
 .toggle-btn{
     display: none;
 }
-.example-area{
+.example-cards{
     flex-wrap: wrap;
     gap: 15px;
 }
@@ -14,11 +14,11 @@
         margin-right: 20px;
         font-size: 1.5rem;
     }
-    .hover-links{
+    .hover-link{
         display: none;
     }
-    .example-cards{
-     width: calc(50% - 30px);
+    .example-card{
+     width:calc(50% - 15px);
     }
 }
 @media (width <= 767px) {
@@ -32,4 +32,21 @@
     width: 100%;
     text-align: center;
    }
+}   
+@media(width<=479px){
+ :root{
+      --padding-inline-section: 5px;
+ }
+ h1{
+    font-size: 2rem;
+ }
+ h2{
+    font-size: 1.5rem;
+ }
+ p{
+    font-size: 1rem;
+ }
+ .feature-card{
+    min-width: 100%;
+ }
 }
